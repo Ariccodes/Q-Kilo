@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main(){
+	char ch='A';
+	if(ch>='0' && ch<='9' || ch>='a' && ch<='z' || ch>='A' && ch<='Z'){
+		printf("YEH");
+	}
+	else{
+		printf("NEH");
+	}
+    return 0;
+}
